@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #555;
+}
+
+.nav-item.active {
+  background-color: #007bff;
+}

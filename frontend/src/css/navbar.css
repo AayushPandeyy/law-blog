@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: whitesmoke;
+  color: #fff;
+}
+
+.logo img {
+  height: 60px; /* Adjust height as needed */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 70px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-btn {
+  padding: 13px 30px;
+  background: linear-gradient(135deg, #ff5f6d, #ffc371);
+  color: #fff;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(135deg, #ff9a8b, #ffd27a);
+}
